@@ -1,0 +1,500 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+		<title>NewHorizons</title>
+		<link rel="shortcut icon" href="img/logo.png" type="logo.png">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+    </head>
+	<body>
+		<div class="title">
+			<code>
+				<div class="t_home">
+					<code>
+						<a href="">
+							<img src="img/logo.png" alt="Link">
+						</a>
+					</code>
+				</div>
+				<div class="t_lang">
+					<code>
+						<ul id="navbar">
+							<li><a>Мова</a>
+								<ul>
+									<li><label for="r1" class="bar"><a>Українська</a></label></li>
+									<li><a>English</a></li>
+								</ul>
+							</li>
+						</ul>
+					</code>
+				</div>
+				<div class="t_about">
+					<code>
+						<ul id="navbar3">
+							<li><a>Про нас</a>
+								<ul>
+									<li><a>Проекти</a></li>
+									<li><a>Контакти</a></li>
+								</ul>
+							</li>
+						</ul>
+					</code>
+				</div>
+				<div class="t_middle">
+					<ul id="navbar2">
+						<li><a onclick="showContent('mykolaiv')" class="active">Миколаїв</a></li>
+						<li><a onclick="showContent('odesa', this)">Одеса</a></li>
+						<li><a onclick="showContent('kyiv', this)">Київ</a></li>
+					</ul>
+				</div>
+			</code>
+		</div>
+		<div class="center">
+            <div class="slide" id="mykolaiv">
+                <img src="img/1.jpg" draggable="false" alt="Link">
+				<h2>НОВІ ГОРИЗОНТИ</h2>
+				<p>· · · · · РОЗВИТОК МОГО МІСТА · · · · ·</p>
+            </div>
+            <div class="slide" id="odesa" style="display: none;">
+                <img src="img/2.jpg" draggable="false" alt="Link">
+                <h2>НОВІ ГОРИЗОНТИ</h2>
+                <p>· · · · · РОЗВИТОК МОГО МІСТА · · · · ·</p>
+            </div>
+            <div class="slide" id="kyiv" style="display: none;">
+                <img src="img/3.jpg" draggable="false" alt="Link">
+                <h2>НОВІ ГОРИЗОНТИ</h2>
+                <p>· · · · · РОЗВИТОК МОГО МІСТА · · · · ·</p>
+            </div>
+        </div>
+		<div class="text-slide" id="text-mykolaiv">
+			<div class="info_blocks">
+				<div class="block">
+					<div class="b_img" data-toggle="modal" data-target="#modalHistoryMykolaiv">
+						<img src="img/history_mykolaiv.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>ІСТОРІЯ</h2>
+				</div>
+				<div id="modalHistoryMykolaiv" class="modal">
+					<div class="modal-window">
+						<h2>Історія</h2>
+						<div class="mw_ogr">
+							<p>
+							Миколаїв засновано у 1789 році, а в 1790-му він отримав статус міста. 
+							Його розвиток пов'язаний із суднобудуванням, яке стало основною галуззю. 
+							Місто назвали на честь святого Миколая, покровителя мореплавців. 
+							Миколаїв був центром кораблебудування на Чорному морі в XIX столітті. 
+							У 1862 році було відкрито комерційний порт, що сприяло його перетворенню на великий торговельний і промисловий центр. 
+							Місто завжди було тісно пов'язане з флотом, тут будували кораблі, зокрема важкі авіаносці, і дислокувався штаб Чорноморського флоту. 
+							</p>
+							<p>
+							24 березня 2022 року Миколаїв отримав звання «Місто-герой України» за масовий героїзм і стійкість мешканців під час оборони міста від російської агресії.
+							</p>
+							<div class="w_img">
+								<img src="img/about_history_m.png" draggable="false" alt="Link">
+								<p>Миколаїв, Стрийсього району Львівської області, фото початку XX століття</p>
+							</div>
+						</div>
+						<button class="btn-close" data-easy-toggle="#modalHistoryMykolaiv" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalHistoryMykolaiv" data-easy-class="show"></div>
+				</div>
+				<div class="block_c">
+					<div class="b_img" data-toggle="modal" data-target="#modalRoleMykolaiv">
+						<img src="img/role_mykolaiv.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>РОЛЬ</h2>
+				</div>
+				<div id="modalRoleMykolaiv" class="modal">
+					<div class="modal-window">
+						<h2>Роль</h2>
+						<div class="mw_ogr">
+							<p>
+							Миколаїв, спочатку розвивався як центр суднобудування на Чорному морі, 
+							ставши важливим осередком для будівництва військових кораблів. 
+							Місто, назване на честь святого Миколая, покровителя моряків, 
+							із XIX століття також стало великим торговим портом, що перетворило його на важливий економічний і промисловий центр, 
+							тісно пов'язаний з експортом зерна.
+							</p>
+							<p>
+							Сьогодні Миколаїв залишається ключовим аграрно-промисловим центром і символом українського спротиву, 
+							зберігаючи при цьому багату культурну та архітектурну спадщину.
+							</p>
+							<div class="w_img">
+								<img src="img/about_role_m.png" draggable="false" alt="Link">
+								<p>Початковий період Миколаївського суднобудування – діорама в Музеї суднобудування та флоту</p>
+							</div>
+						</div>
+						<button class="btn-close" data-easy-toggle="#modalRoleMykolaiv" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalRoleMykolaiv" data-easy-class="show"></div>
+				</div>
+				<div class="block">
+					<div class="b_img" data-toggle="modal" data-target="#modalHeritageMykolaiv">
+						<img src="img/heritage_mykolaiv.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>СПАДЩИНА</h2>
+				</div>
+				<div id="modalHeritageMykolaiv" class="modal">
+					<div class="modal-window">
+						<h2>Спадщина</h2>
+						<div class="mw_ogr">
+							<p>
+							Миколаївська обсерваторія — одна з найдавніших обсерваторій Східної Європи, 
+							заснована у 1821 році як морська обсерваторія. 
+							У 1912 році вона стала частиною Головної (Пулковської) астрономічної обсерваторії, 
+							а з 1935 року увійшла до мережі наукових установ Академії наук СРСР. 
+							У 1992 році обсерваторія отримала статус незалежної наукової установи України, 
+							а з 2002 року функціонує як Науково-дослідний інститут «Миколаївська астрономічна обсерваторія». 
+							Нині вона перебуває під управлінням Державного комітету України з питань науки, інновацій та інформатизації.
+							</p>
+							<p>
+							У 2007 році Миколаївська обсерваторія була включена до об'єктів Всесвітньої спадщини ЮНЕСКО від України, 
+							що підкреслює її історичний та науковий статус як однієї з найважливіших обсерваторій Східної Європи.
+							</p>
+							<div class="w_img">
+								<img src="img/about_heritage_m.png" draggable="false" alt="Link">
+								<p>Миколаївська астрономічна обсерваторія</p>
+							</div>
+						</div>
+						<button class="btn-close" data-easy-toggle="#modalHeritageMykolaiv" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalHeritageMykolaiv" data-easy-class="show"></div>
+				</div>
+			</div>
+			<div class="info_blocks2">
+				<div class="block">
+					<div class="b_img" data-toggle="modal" data-target="#modalWarMykolaiv">
+						<img src="img/war_mykolaiv.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>ВІЙНА</h2>
+				</div>
+				<div id="modalWarMykolaiv" class="modal">
+					<div class="modal-window">
+						<h2>Війна</h2>
+						<div class="mw_ogr">
+							<p>
+							У перші дні війни російські війська почали атаки на об'єкти в околицях Миколаєва. 
+							Агресор намагався висадити десант з гелікоптерів, використовував диверсійно-розвідувальні групи, 
+							а також завдавав ударів по військових і цивільних об'єктах ракетами. 
+							Місто піддалося артилерійським обстрілам, а танки намагалися прорватися на його територію. 
+							За даними обласної військової адміністрації, внаслідок цих атак сотні людей були вбиті або поранені. 
+							Російські війська пошкодили або знищили 1304 житлових об'єкти, 12 медичних закладів, 79 навчальних закладів, 
+							24 культурні установи, 17 промислових об'єктів, 74 об'єкти газопостачання, 164 електричних об'єктів, 
+							6 теплопостачальних об'єктів та 69 інших невійськових структур.
+							</p>
+							<p>
+							Попри всі зусилля агресора, місто не було захоплене. Зазнавши значних втрат у особовому складі та техніці, російські війська відступили.
+							</p>
+							<div class="w_img">
+								<img src="img/about_war_m.png" draggable="false" alt="Link">
+								<p>Зруйнована внаслідок російської агресії перша українська гімназія імені Миколи Аркаса</p>
+							</div>
+						</div>
+						<button class="btn-close" data-easy-toggle="#modalWarMykolaiv" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalWarMykolaiv" data-easy-class="show"></div>
+				</div>
+				<div class="block_c">
+					<div class="b_img" data-toggle="modal" data-target="#modalFutureMykolaiv">
+						<img src="img/modernity_mykolaiv.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>МАЙБУТНЄ</h2>
+				</div>
+				<div id="modalFutureMykolaiv" class="modal">
+					<div class="modal-window">
+						<h2>Майбутнє</h2>
+						<div class="mw_ogr">
+							<p>
+							При розробці цього плану фахівці зосередились на збереженні історичних будівель на території заводу, 
+							а також реконструкції існуючих споруд та створенні зелених просторів. 
+							"Ми намагалися з усіх сторін подивитись на майбутнє старішого суднобудівного заводу нашого міста, 
+							зберегти суднобудування і закласти його розвиток з урахуванням світових тенденцій в цій сфері, 
+							що спираються на високотехнологічне виробництво і створення кластерів", 
+							— додав керівник експертної групи Ігор Лисицький.
+							</p>
+							<p>
+							У проєкті передбачені майданчики для малого суднобудування, стоянка катерів і яхт, 
+							комплекс технологічного парку, музей кораблів просто неба, офісні та житлові будинки. 
+							Крім того, у планах театр і канатна дорога, що з’єднає обидва береги річки, додали в повідомленні.
+							</p>
+							<div class="w_img">
+								<img src="img/about_modernity_m.png" draggable="false" alt="Link">
+								<p>Концепція ревіталізації Миколаївського суднобудівного заводу</p>
+							</div>
+						</div>
+						<button class="btn-close" data-easy-toggle="#modalFutureMykolaiv" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalFutureMykolaiv" data-easy-class="show"></div>
+				</div>
+				<div class="block">
+					<div class="b_img" data-toggle="modal" data-target="#modalNatureMykolaiv">
+						<img src="img/nature_mykolaiv.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>ПРИРОДА</h2>
+				</div>
+				<div id="modalNatureMykolaiv" class="modal">
+					<div class="modal-window">
+						<h2>Природа</h2>
+						<div class="mw_ogr">
+							<p>
+							Мигія — одна з найпривабливіших частин парку "Гранітно-Степове Побужжя", 
+							відома своїми мальовничими пейзажами. Це селище щороку приваблює все більше туристів. 
+							Для любителів активного відпочинку пропонується рафтинг — екстремальний спорт, 
+							який включає сплав гірською або рівнинною річкою на плотах, тюбах чи надувних човнах. 
+							Мандрівники можуть вибирати між маршрутами з елементами боротьби з водною стихією та зонами для релаксу. 
+							Охочі можуть спробувати бодірафтинг у бурхливих водах або підкорити скелі, як, наприклад, в урочищі Протич. 
+							</p>
+							<p>
+							Однак рафтинг — це активний і небезпечний вид відпочинку, 
+							тому важливо уважно слухати інструкторів і перевіряти екіпірування. 
+							Це ідеальний вибір для тих, хто прагне гострих відчуттів та активного відпочинку.
+							</p>
+							<div class="w_img">
+								<img src="img/about_nature_m.png" draggable="false" alt="Link">
+								<p>Мальовничі краєвиди Української Швейцарії</p>
+							</div>
+						</div>
+						<button class="btn-close" data-easy-toggle="#modalNatureMykolaiv" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalNatureMykolaiv" data-easy-class="show"></div>
+				</div>
+			</div>
+		</div>
+        <div class="text-slide" id="text-odesa" style="display: none;">
+            <div class="info_blocks">
+				<div class="block">
+					<div class="b_img" data-toggle="modal" data-target="#modalHistoryOdesa">
+						<img src="img/history_odesa.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>ІСТОРІЯ</h2>
+				</div>
+				<div id="modalHistoryOdesa" class="modal">
+					<div class="modal-window">
+						<h2>7</h2>
+						<p>всякое</p>
+						<button class="btn-close" data-easy-toggle="#modalHistoryOdesa" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalHistoryOdesa" data-easy-class="show"></div>
+				</div>
+				<div class="block_c">
+					<div class="b_img" data-toggle="modal" data-target="#modalRoleOdesa">
+						<img src="img/role_odesa.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>РОЛЬ</h2>
+				</div>
+				<div id="modalRoleOdesa" class="modal">
+					<div class="modal-window">
+						<h2>8</h2>
+						<p>всякое</p>
+						<button class="btn-close" data-easy-toggle="#modalRoleOdesa" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalRoleOdesa" data-easy-class="show"></div>
+				</div>
+				<div class="block">
+					<div class="b_img" data-toggle="modal" data-target="#modalHeritageOdesa">
+						<img src="img/heritage_odesa.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>СПАДЩИНА</h2>
+				</div>
+				<div id="modalHeritageOdesa" class="modal">
+					<div class="modal-window">
+						<h2>9</h2>
+						<p>всякое</p>
+						<button class="btn-close" data-easy-toggle="#modalHeritageOdesa" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalHeritageOdesa" data-easy-class="show"></div>
+				</div>
+			</div>
+			<div class="info_blocks2">
+				<div class="block">
+					<div class="b_img" data-toggle="modal" data-target="#modalWarOdesa">
+						<img src="img/war_odesa.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>ВІЙНА</h2>
+				</div>
+				<div id="modalWarOdesa" class="modal">
+					<div class="modal-window">
+						<h2>10</h2>
+						<p>всякое</p>
+						<button class="btn-close" data-easy-toggle="#modalWarOdesa" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalWarOdesa" data-easy-class="show"></div>
+				</div>
+				<div class="block_c">
+					<div class="b_img" data-toggle="modal" data-target="#modalModernityOdesa">
+						<img src="img/modernity_odesa.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>МАЙБУТНЄ</h2>
+				</div>
+				<div id="modalModernityOdesa" class="modal">
+					<div class="modal-window">
+						<h2>11</h2>
+						<p>всякое</p>
+						<button class="btn-close" data-easy-toggle="#modalModernityOdesa" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalModernityOdesa" data-easy-class="show"></div>
+				</div>
+				<div class="block">
+					<div class="b_img" data-toggle="modal" data-target="#modalNatureOdesa">
+						<img src="img/nature_odesa.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>ПРИРОДА</h2>
+				</div>
+				<div id="modalNatureOdesa" class="modal">
+					<div class="modal-window">
+						<h2>12</h2>
+						<p>всякое</p>
+						<button class="btn-close" data-easy-toggle="#modalNatureOdesa" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalNatureOdesa" data-easy-class="show"></div>
+				</div>
+			</div>
+        </div>
+        <div class="text-slide" id="text-kyiv" style="display: none;">
+            <div class="info_blocks">
+				<div class="block">
+					<div class="b_img" data-toggle="modal" data-target="#modalHistoryKyiv">
+						<img src="img/history_kyiv.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>ІСТОРІЯ</h2>
+				</div>
+				<div id="modalHistoryKyiv" class="modal">
+					<div class="modal-window">
+						<h2>13</h2>
+						<p>всякое</p>
+						<button class="btn-close" data-easy-toggle="#modalHistoryKyiv" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalHistoryKyiv" data-easy-class="show"></div>
+				</div>
+				<div class="block_c">
+					<div class="b_img" data-toggle="modal" data-target="#modalRoleKyiv">
+						<img src="img/role_kyiv.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>РОЛЬ</h2>
+				</div>
+				<div id="modalRoleKyiv" class="modal">
+					<div class="modal-window">
+						<h2>14</h2>
+						<p>всякое</p>
+						<button class="btn-close" data-easy-toggle="#modalRoleKyiv" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalRoleKyiv" data-easy-class="show"></div>
+				</div>
+				<div class="block">
+					<div class="b_img" data-toggle="modal" data-target="#modalHeritageKyiv">
+						<img src="img/heritage_kyiv.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>СПАДЩИНА</h2>
+				</div>
+				<div id="modalHeritageKyiv" class="modal">
+					<div class="modal-window">
+						<h2>15</h2>
+						<p>всякое</p>
+						<button class="btn-close" data-easy-toggle="#modalHeritageKyiv" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalHeritageKyiv" data-easy-class="show"></div>
+				</div>
+			</div>
+			<div class="info_blocks2">
+				<div class="block">
+					<div class="b_img" data-toggle="modal" data-target="#modalWarKyiv">
+						<img src="img/war_kyiv.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>ВІЙНА</h2>
+				</div>
+				<div id="modalWarKyiv" class="modal">
+					<div class="modal-window">
+						<h2>16</h2>
+						<p>всякое</p>
+						<button class="btn-close" data-easy-toggle="#modalWarKyiv" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalWarKyiv" data-easy-class="show"></div>
+				</div>
+				<div class="block_c">
+					<div class="b_img" data-toggle="modal" data-target="#modalModernityKyiv">
+						<img src="img/modernity_kyiv.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>МАЙБУТНЄ</h2>
+				</div>
+				<div id="modalModernityKyiv" class="modal">
+					<div class="modal-window">
+						<h2>17</h2>
+						<p>всякое</p>
+						<button class="btn-close" data-easy-toggle="#modalModernityKyiv" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalModernityKyiv" data-easy-class="show"></div>
+				</div>
+				<div class="block">
+					<div class="b_img" data-toggle="modal" data-target="#modalNatureKyiv">
+						<img src="img/nature_kyiv.jpg" draggable="false" alt="Link">
+					</div>
+					<h2>ПРИРОДА</h2>
+				</div>
+				<div id="modalNatureKyiv" class="modal">
+					<div class="modal-window">
+						<h2>18</h2>
+						<p>всякое</p>
+						<button class="btn-close" data-easy-toggle="#modalNatureKyiv" data-easy-class="show">🗙</button>
+					</div>
+					<div class="overlay" data-easy-toggle="#modalNatureKyiv" data-easy-class="show"></div>
+				</div>
+			</div>
+        </div>
+		<script>
+		//SLIDER
+			function showContent(city) {
+				var slides = document.getElementsByClassName("slide");
+				for (var i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				document.getElementById(city).style.display = "flex";
+				
+				var textSlides = document.getElementsByClassName("text-slide");
+				for (var i = 0; i < textSlides.length; i++) {
+					textSlides[i].style.display = "none";
+				}
+				document.getElementById("text-" + city).style.display = "block";
+				
+				var navbarItems = document.querySelectorAll("#navbar2 li a");
+				navbarItems.forEach(item => item.classList.remove('active'));
+				var activeItem = Array.from(navbarItems).find(item => item.onclick.toString().includes(city));
+				if (activeItem) {
+					activeItem.classList.add('active');
+				}
+			}
+			window.onload = function() {
+				showContent('mykolaiv');
+			}
+		//MODAL WINDOW
+			function handleModalClick(event) {
+				const target = event.target;
+				const toggleSelector = target.getAttribute('data-easy-toggle');
+				const toggleClass = target.getAttribute('data-easy-class');
+				if (toggleSelector && toggleClass) {
+					event.preventDefault();
+					const modalElement = document.querySelector(toggleSelector);
+					if (modalElement) {
+						modalElement.classList.toggle(toggleClass);
+					}
+				}
+			}
+			document.addEventListener('click', handleModalClick);
+			document.querySelectorAll('.b_img').forEach(function(block) {
+				block.addEventListener('click', function() {
+					const modalId = block.getAttribute('data-target');
+					const modal = document.querySelector(modalId);
+					if (modal) {
+						modal.classList.add('show');
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
