@@ -1,0 +1,80 @@
+@media (width <= 992px) {
+	.title{
+		height: 75px;
+	}
+	.t_home img{
+		height: 75px;
+	}
+	.t_lang, .t_about{
+		display: none;
+	}
+	#navbar2 li{
+		width: 200px;
+	}
+	#navbar2 li a{
+		display: block;
+		padding: 10.75px;
+		width: auto;
+		color: #fff;
+		font-family: Caveat;
+		font-size: 42px;
+		text-decoration: none;
+		text-align: center;
+		cursor: pointer;
+	}
+	#navbar2 li a:hover{ background-color: rgba(130, 183, 181, 0.5); transition: background 0.5s ease;}
+	#navbar2 ul li { float: none; }
+	.t_middle{
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 75%;
+		margin: 0 auto;
+		margin-left: 12.5%;
+		background-color: #000;
+	}
+	.side-menu {
+		display: flex;
+		height: 100%;
+		width: 0;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: #111;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+	}
+
+	.side-menu a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		color: white;
+		display: block;
+		transition: 0.3s;
+	}
+
+	.side-menu a:hover {
+		color: #f1f1f1;
+	}
+
+	.side-menu .close-btn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+
+	.open-btn{
+		float: right;
+		display: flex;
+		font-size: 50px;
+		cursor: pointer;
+	}
+	.open-btn:hover{
+		color: #444;
+	}
+}
