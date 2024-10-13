@@ -1,4 +1,4 @@
-@media (width <= 992px) {
+@media (width <= 768px) {
 	.title{
 		height: 150px;
 	}
