@@ -1,9 +1,9 @@
 @media (width <= 992px) {
 	.title{
-		height: 75px;
+		height: 150px;
 	}
 	.t_home img{
-		height: 75px;
+		height: 150px;
 	}
 	.t_lang, .t_about{
 		display: none;
