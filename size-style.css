@@ -16,8 +16,6 @@
 		padding-bottom: 43.5px;
 		font-size: 50px;
 	}
-	#navbar2 li a:hover{ background-color: rgba(130, 183, 181, 0.5); transition: background 0.5s ease;}
-	#navbar2 ul li { float: none; }
 	.t_middle{
 		width: 67.5%;
 		margin-left: 16.75%;
