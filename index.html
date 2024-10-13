@@ -4,6 +4,7 @@
 		<title>NewHorizons</title>
 		<link rel="shortcut icon" href="img/logo.png" type="logo.png">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="size-style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
@@ -47,6 +48,15 @@
 						</ul>
 					</code>
 				</div>
+				<div id="menu" class="side-menu">
+					<a href="javascript:void(0)" class="close-btn" onclick="closeMenu()">&times;</a>
+					<a href="#">Главная</a>
+					<a href="#">О нас</a>
+					<a href="#">Услуги</a>
+					<a href="#">Контакты</a>
+				</div>
+
+				<span class="open-btn" onclick="openMenu()">☰</span>
 				<div class="t_middle">
 					<ul id="navbar2">
 						<li><a onclick="showContent('mykolaiv')" class="active">Миколаїв</a></li>
@@ -495,6 +505,14 @@
 					}
 				});
 			});
+		//MENU
+			function openMenu() {
+				document.getElementById("menu").style.width = "250px";
+			}
+
+			function closeMenu() {
+				document.getElementById("menu").style.width = "0";
+			}
 		</script>
 	</body>
 </html>
