@@ -1,4 +1,4 @@
-@media (width < 990px) {
+@media (max-width: 990px) and (orientation: portrait) {
 	.title{
 		height: 150px;
 	}
