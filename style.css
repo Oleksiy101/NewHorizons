@@ -133,7 +133,10 @@ header{
 	height: auto;
     margin-top: 5%;
 }
-.block, .block_c{
+.info_blocks3{
+	display: none;
+}
+.block, .block_c, .block_r{
 	float: left;
 	width: 375px;
 	height: 250px;
@@ -142,7 +145,7 @@ header{
 	margin-left: 10%;
 	margin-right: 10%;
 }
-.block h2, .block_c h2{
+.block h2, .block_c h2, .block_r h2{
 	text-align: center;
 	color: #fff;
     font-family: 'Alegreya SC';
