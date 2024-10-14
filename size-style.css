@@ -20,4 +20,22 @@
 		width: 67.5%;
 		margin-left: 16.75%;
 	}
+	.block_c{
+		margin-right: 0%;
+	}
+	.block_r{
+		display: none;
+	}
+	.info_blocks3{
+		float: left;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+	}
+	.modal-window{
+		height: 50%;
+	}
 }
