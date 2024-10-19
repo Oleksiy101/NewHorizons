@@ -26,6 +26,28 @@
 	.block_r{
 		display: none;
 	}
+	.slide h2, .slide p{
+		display: none;
+	}
+	.un_c_txt{
+		display: flex;
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	.un_c_txt h2{
+		color: #fff;
+		font-family: 'Russo One';
+		font-size: 80px;
+		width: 100%;
+	}
+	.un_c_txt p{
+		margin-top: 0;
+		color: #fff;
+		font-family: 'Philosopher';
+		font-size: 44px;
+		width: 100%;
+	}
 	.info_blocks3{
 		float: left;
 		display: flex;
