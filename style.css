@@ -214,15 +214,17 @@ header{
 .mw_ogr{
 	height: 85%;
 	overflow-y: scroll;
+	-webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+	mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 95%, rgba(0,0,0,0) 100%);
 }
 .modal-window h2{
     	color: #fff;
-	font-family: 'Alegreya SC';
+		font-family: 'Alegreya SC';
     	font-size: 30px;
 }
 .modal-window p{
     	color: #fff;
-	font-family: 'Caveat';
+		font-family: 'Caveat';
     	font-size: 25px;
 }
 .w_img{
