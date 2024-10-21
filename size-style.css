@@ -58,6 +58,18 @@
 		margin-top: 5%;
 	}
 	.modal-window{
-		height: 50%;
+		height: 60%;
+	}
+	.mw_ogr{
+		height: 80%;
+	}
+	.modal-window h2{
+		font-size: 60px;
+	}
+	.modal-window p{
+		font-size: 50px;
+	}
+	.w_img img {
+    	transition: transform 0.5s;
 	}
 }
