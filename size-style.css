@@ -73,4 +73,9 @@
 	.w_img img {
     	transition: transform 0.5s;
 	}
+	.btn-close{
+    	top: 5px;
+    	right: 5px;
+		font-size: 50px;
+	}
 }
