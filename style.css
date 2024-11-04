@@ -126,19 +126,19 @@ header{
 .un_c_txt{
 	display: none;
 }
-.info_blocks, .info_blocks2{
+.info_blocks{
 	float: left;
 	display: flex;
-    	justify-content: center;
-    	align-items: center;
-    	width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 	height: auto;
-   	 margin-top: 5%;
+   	margin-top: 5%;
 }
-.info_blocks3{
+.info_blocks2{
 	display: none;
 }
-.block, .block_c, .block_r{
+.block, .block_c{
 	float: left;
 	width: 375px;
 	height: 250px;
@@ -147,7 +147,7 @@ header{
 	margin-left: 10%;
 	margin-right: 10%;
 }
-.block h2, .block_c h2, .block_r h2{
+.block h2, .block_c h2{
 	text-align: center;
 	color: #fff;
   	font-family: 'Alegreya SC';
@@ -168,9 +168,6 @@ header{
 }
 .b_img img:hover{
 	transform: scale(1.025);
-}
-.info_blocks2{
-    	margin-top: 5%;
 }
 .modal{
     	position: fixed;
@@ -214,8 +211,6 @@ header{
 .mw_ogr{
 	height: 85%;
 	overflow-y: scroll;
-	-webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
-	mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 95%, rgba(0,0,0,0) 100%);
 }
 .modal-window h2{
     	color: #fff;
