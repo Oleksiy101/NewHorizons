@@ -21,10 +21,11 @@
 		margin-left: 16.75%;
 	}
 	.block_c{
-		margin-right: 0%;
-	}
-	.block_r{
 		display: none;
+	}
+	.block{
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	.slide h2, .slide p{
 		display: none;
@@ -48,7 +49,7 @@
 		font-size: 44px;
 		width: 100%;
 	}
-	.info_blocks3{
+	.info_blocks2{
 		float: left;
 		display: flex;
 		justify-content: center;
