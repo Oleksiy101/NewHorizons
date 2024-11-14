@@ -291,7 +291,7 @@ header{
 	float: left;
     width: 100%;
 	height: 400px;
-	background-color: rgb(59, 59, 59);
+	background-color: #2f2f2f;
 }
 .links, .un_links, .other{
 	float: left;
@@ -302,14 +302,16 @@ header{
     width: 100%;
 	height: 75px;
 }
-.links img{
-    width: auto;
-	margin: 25px;
-	height: 100%;
+.l_ico{
+    margin: 25px;
+}
+.l_ico img{
+    width: 75px;
+	height: 75px;
 }
 .un_links{
 	margin-top: 50px;
-	background-color:green;
+	background-color: rgba(130, 183, 181, 1);
 }
 .other{
 	margin-top: 50px;
