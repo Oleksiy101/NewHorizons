@@ -78,4 +78,11 @@
     	right: 5px;
 		font-size: 50px;
 	}
+	.l_ico img{
+		width: 100px;
+		height: 100px;
+	}
+	.other p{
+		font-size: 25px;
+	}
 }
