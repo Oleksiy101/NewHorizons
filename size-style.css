@@ -85,4 +85,10 @@
 	.other p{
 		font-size: 25px;
 	}
+	.content_item{
+		width: 75%;
+	}
+	.content_item p{
+		font-size: 45px;
+	}
 }
