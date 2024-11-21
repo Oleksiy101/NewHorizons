@@ -251,6 +251,9 @@ header{
 .btn-close:hover{
     opacity: 50%;
 }
+.under2{
+	display: none;
+}
 .under{
 	float: left;
 	display: flex;
