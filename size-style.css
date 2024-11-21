@@ -57,6 +57,7 @@
 		width: 100%;
 		height: auto;
 		margin-top: 5%;
+		margin-bottom: 100px;
 	}
 	.modal-window{
 		height: 60%;
@@ -84,5 +85,45 @@
 	}
 	.other p{
 		font-size: 25px;
+	}
+	.under, .left, .right{
+		display: none;
+	}
+	.under2{
+		display: flex;
+		overflow-x: auto;
+		scroll-behavior: smooth;
+		scroll-snap-type: x mandatory;
+		width: 90%;
+		margin: 100px auto 10px auto;
+		height: auto;
+		padding: 20px 0;
+		box-sizing: border-box;
+	}
+	.left2{
+		flex: 0 0 80%;
+		scroll-snap-align: center;
+		margin: 0 50px;
+		height: auto;
+		background-color: rgba(130, 183, 181, 0.5);
+		color: white;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+	}
+	.under2::before{
+		content: '';
+		flex: 0 0 50px;
+	}
+	.left2 h2{
+		text-align: center;
+		font-family: 'Alegreya SC', serif;
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.left2 p{
+		font-family: 'Caveat', cursive;
+		font-size: 25px;
+		line-height: 1.5;
 	}
 }
