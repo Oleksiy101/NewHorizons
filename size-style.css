@@ -86,6 +86,8 @@
 	.other p{
 		font-size: 25px;
 	}
+}
+@media (width <= 992px) {
 	.under, .left, .right{
 		display: none;
 	}
